@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFC884C25DC89480084EB68 /* osyaVege_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */; };
+		ECFC884E25DC89480084EB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC884D25DC89480084EB68 /* ContentView.swift */; };
+		ECFC885025DC89480084EB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC884F25DC89480084EB68 /* Assets.xcassets */; };
+		ECFC885325DC89480084EB68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC885225DC89480084EB68 /* Preview Assets.xcassets */; };
+		ECFC885E25DC89490084EB68 /* osyaVege_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC885D25DC89490084EB68 /* osyaVege_SwiftUITests.swift */; };
+		ECFC886925DC89490084EB68 /* osyaVege_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC886825DC89490084EB68 /* osyaVege_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFC885A25DC89490084EB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC884025DC89480084EB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC884725DC89480084EB68;
+			remoteInfo = "osyaVege-SwiftUI";
+		};
+		ECFC886525DC89490084EB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC884025DC89480084EB68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC884725DC89480084EB68;
+			remoteInfo = "osyaVege-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECFC884825DC89480084EB68 /* osyaVege-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osyaVege-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osyaVege_SwiftUIApp.swift; sourceTree = "<group>"; };
+		ECFC884D25DC89480084EB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECFC884F25DC89480084EB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFC885225DC89480084EB68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECFC885425DC89480084EB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC885925DC89490084EB68 /* osyaVege-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osyaVege-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC885D25DC89490084EB68 /* osyaVege_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osyaVege_SwiftUITests.swift; sourceTree = "<group>"; };
+		ECFC885F25DC89490084EB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC886425DC89490084EB68 /* osyaVege-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "osyaVege-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC886825DC89490084EB68 /* osyaVege_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osyaVege_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		ECFC886A25DC89490084EB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFC884525DC89480084EB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC885625DC89490084EB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC886125DC89490084EB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFC883F25DC89480084EB68 = {
+			isa = PBXGroup;
+			children = (
+				ECFC884A25DC89480084EB68 /* osyaVege-SwiftUI */,
+				ECFC885C25DC89490084EB68 /* osyaVege-SwiftUITests */,
+				ECFC886725DC89490084EB68 /* osyaVege-SwiftUIUITests */,
+				ECFC884925DC89480084EB68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFC884925DC89480084EB68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC884825DC89480084EB68 /* osyaVege-SwiftUI.app */,
+				ECFC885925DC89490084EB68 /* osyaVege-SwiftUITests.xctest */,
+				ECFC886425DC89490084EB68 /* osyaVege-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFC884A25DC89480084EB68 /* osyaVege-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */,
+				ECFC884D25DC89480084EB68 /* ContentView.swift */,
+				ECFC884F25DC89480084EB68 /* Assets.xcassets */,
+				ECFC885425DC89480084EB68 /* Info.plist */,
+				ECFC885125DC89480084EB68 /* Preview Content */,
+			);
+			path = "osyaVege-SwiftUI";
+			sourceTree = "<group>";
+		};
+		ECFC885125DC89480084EB68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC885225DC89480084EB68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECFC885C25DC89490084EB68 /* osyaVege-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC885D25DC89490084EB68 /* osyaVege_SwiftUITests.swift */,
+				ECFC885F25DC89490084EB68 /* Info.plist */,
+			);
+			path = "osyaVege-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		ECFC886725DC89490084EB68 /* osyaVege-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC886825DC89490084EB68 /* osyaVege_SwiftUIUITests.swift */,
+				ECFC886A25DC89490084EB68 /* Info.plist */,
+			);
+			path = "osyaVege-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFC884725DC89480084EB68 /* osyaVege-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC886D25DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUI" */;
+			buildPhases = (
+				ECFC884425DC89480084EB68 /* Sources */,
+				ECFC884525DC89480084EB68 /* Frameworks */,
+				ECFC884625DC89480084EB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "osyaVege-SwiftUI";
+			productName = "osyaVege-SwiftUI";
+			productReference = ECFC884825DC89480084EB68 /* osyaVege-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFC885825DC89490084EB68 /* osyaVege-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC887025DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUITests" */;
+			buildPhases = (
+				ECFC885525DC89490084EB68 /* Sources */,
+				ECFC885625DC89490084EB68 /* Frameworks */,
+				ECFC885725DC89490084EB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC885B25DC89490084EB68 /* PBXTargetDependency */,
+			);
+			name = "osyaVege-SwiftUITests";
+			productName = "osyaVege-SwiftUITests";
+			productReference = ECFC885925DC89490084EB68 /* osyaVege-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECFC886325DC89490084EB68 /* osyaVege-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC887325DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUIUITests" */;
+			buildPhases = (
+				ECFC886025DC89490084EB68 /* Sources */,
+				ECFC886125DC89490084EB68 /* Frameworks */,
+				ECFC886225DC89490084EB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC886625DC89490084EB68 /* PBXTargetDependency */,
+			);
+			name = "osyaVege-SwiftUIUITests";
+			productName = "osyaVege-SwiftUIUITests";
+			productReference = ECFC886425DC89490084EB68 /* osyaVege-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFC884025DC89480084EB68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ECFC884725DC89480084EB68 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ECFC885825DC89490084EB68 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ECFC884725DC89480084EB68;
+					};
+					ECFC886325DC89490084EB68 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ECFC884725DC89480084EB68;
+					};
+				};
+			};
+			buildConfigurationList = ECFC884325DC89480084EB68 /* Build configuration list for PBXProject "osyaVege-SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFC883F25DC89480084EB68;
+			productRefGroup = ECFC884925DC89480084EB68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFC884725DC89480084EB68 /* osyaVege-SwiftUI */,
+				ECFC885825DC89490084EB68 /* osyaVege-SwiftUITests */,
+				ECFC886325DC89490084EB68 /* osyaVege-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFC884625DC89480084EB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC885325DC89480084EB68 /* Preview Assets.xcassets in Resources */,
+				ECFC885025DC89480084EB68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC885725DC89490084EB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC886225DC89490084EB68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFC884425DC89480084EB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC884E25DC89480084EB68 /* ContentView.swift in Sources */,
+				ECFC884C25DC89480084EB68 /* osyaVege_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC885525DC89490084EB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC885E25DC89490084EB68 /* osyaVege_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC886025DC89490084EB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC886925DC89490084EB68 /* osyaVege_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFC885B25DC89490084EB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC884725DC89480084EB68 /* osyaVege-SwiftUI */;
+			targetProxy = ECFC885A25DC89490084EB68 /* PBXContainerItemProxy */;
+		};
+		ECFC886625DC89490084EB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC884725DC89480084EB68 /* osyaVege-SwiftUI */;
+			targetProxy = ECFC886525DC89490084EB68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECFC886B25DC89490084EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECFC886C25DC89490084EB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFC886E25DC89490084EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"osyaVege-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "osyaVege-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECFC886F25DC89490084EB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"osyaVege-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "osyaVege-SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECFC887125DC89490084EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				INFOPLIST_FILE = "osyaVege-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osyaVege-SwiftUI.app/osyaVege-SwiftUI";
+			};
+			name = Debug;
+		};
+		ECFC887225DC89490084EB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				INFOPLIST_FILE = "osyaVege-SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osyaVege-SwiftUI.app/osyaVege-SwiftUI";
+			};
+			name = Release;
+		};
+		ECFC887425DC89490084EB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				INFOPLIST_FILE = "osyaVege-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "osyaVege-SwiftUI";
+			};
+			name = Debug;
+		};
+		ECFC887525DC89490084EB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PXVDQMGAW;
+				INFOPLIST_FILE = "osyaVege-SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.osyaVege-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "osyaVege-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFC884325DC89480084EB68 /* Build configuration list for PBXProject "osyaVege-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC886B25DC89490084EB68 /* Debug */,
+				ECFC886C25DC89490084EB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC886D25DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC886E25DC89490084EB68 /* Debug */,
+				ECFC886F25DC89490084EB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC887025DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC887125DC89490084EB68 /* Debug */,
+				ECFC887225DC89490084EB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC887325DC89490084EB68 /* Build configuration list for PBXNativeTarget "osyaVege-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC887425DC89490084EB68 /* Debug */,
+				ECFC887525DC89490084EB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFC884025DC89480084EB68 /* Project object */;
+}
