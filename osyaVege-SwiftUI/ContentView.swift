@@ -19,7 +19,7 @@ struct ContentView: View {
                 Image("logo")
                 
                 Button(action: {
-                    //画面遷移処理
+                    //画面遷移処理するよ
                 }, label: {
                     Image("startButton")
                 })
