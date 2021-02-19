@@ -14,23 +14,31 @@ struct ContentView: View {
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        
-        VStack(alignment: .center, spacing: 159, content: {
-            Image("logo")
             
-            Button(action: {
-                print("画面遷移")
-            }, label: {
+            VStack(alignment: .center, spacing: 159, content: {
+                Image("logo")
+                
+                Button(action: {
+                    //画面遷移処理
+                }, label: {
+                    Image("startButton")
+                })
+            }
+            )}
+    }
+    
+}
+
+struct StartButton: View {
+    var body: some View {
+        NavigationView {
+            NavigationLink(destination: SelectView()) {
                 Image("startButton")
-            })
-            
+            }
         }
-        
-        )
-        }
-        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

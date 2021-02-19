@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECC4254025E073AF00F761FC /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4253F25E073AF00F761FC /* SelectView.swift */; };
 		ECFC884C25DC89480084EB68 /* osyaVege_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */; };
 		ECFC884E25DC89480084EB68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC884D25DC89480084EB68 /* ContentView.swift */; };
 		ECFC885025DC89480084EB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC884F25DC89480084EB68 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECC4253F25E073AF00F761FC /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
 		ECFC884825DC89480084EB68 /* osyaVege-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "osyaVege-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = osyaVege_SwiftUIApp.swift; sourceTree = "<group>"; };
 		ECFC884D25DC89480084EB68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				ECFC884B25DC89480084EB68 /* osyaVege_SwiftUIApp.swift */,
 				ECFC884D25DC89480084EB68 /* ContentView.swift */,
+				ECC4253F25E073AF00F761FC /* SelectView.swift */,
 				ECFC884F25DC89480084EB68 /* Assets.xcassets */,
 				ECFC885425DC89480084EB68 /* Info.plist */,
 				ECFC885125DC89480084EB68 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				ECFC884E25DC89480084EB68 /* ContentView.swift in Sources */,
 				ECFC884C25DC89480084EB68 /* osyaVege_SwiftUIApp.swift in Sources */,
+				ECC4254025E073AF00F761FC /* SelectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
