@@ -9,13 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Image("nomalBackground")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        
+        VStack(alignment: .center, spacing: 159, content: {
+            Image("logo")
+            
+            Button(action: {
+                print("画面遷移")
+            }, label: {
+                Image("startButton")
+            })
+            
+        }
+        
+        )
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .background(Color.white
+            )
     }
 }
