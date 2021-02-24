@@ -11,49 +11,30 @@ struct ContentView: View {
     @State var isActiveSubView = false
     var body: some View {
         NavigationView {
-        ZStack {
-            Image("nomalBackground")
-                .resizable()
-                .edgesIgnoringSafeArea(.all)
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-            
-            VStack(alignment: .center, spacing: 140, content: {
-                NavigationLink(destination: SubView(),
-                                              isActive: $isActiveSubView) {
-                                               EmptyView()
-                               }
-                Image("logo")
+            ZStack {
+                Image("nomalBackground")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.all)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                 
-                Button(action: {
-                    self.isActiveSubView.toggle()
-                }, label: {
-                    Image("startButton")
-                })
-            }
-            )}
-    }
+                VStack(alignment: .center, spacing: 100, content: {
+                    NavigationLink(destination: SelectView(),
+                                   isActive: $isActiveSubView) {
+                        EmptyView()
+                    }
+                    Image("logo")
+                    
+                    Button(action: {
+                        self.isActiveSubView.toggle()
+                    }, label: {
+                        Image("startButton")
+                    })
+                }
+                )}
+        }
     }
     
 }
-
-struct StartButton: View {
-    var body: some View {
-        NavigationView {
-            NavigationLink(destination: SelectView()) {
-                Image("startButton")
-            }
-        }
-    }
-}
-struct SubView: View {
-    var body: some View {
-        VStack {
-            Text("SubView")
-        }
-        .navigationBarTitle("SubView")
-    }
-}
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
