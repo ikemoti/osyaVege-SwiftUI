@@ -8,23 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isActiveSubView = false
     var body: some View {
+        NavigationView {
         ZStack {
             Image("nomalBackground")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
             
-            VStack(alignment: .center, spacing: 159, content: {
+            VStack(alignment: .center, spacing: 140, content: {
+                NavigationLink(destination: SubView(),
+                                              isActive: $isActiveSubView) {
+                                               EmptyView()
+                               }
                 Image("logo")
                 
                 Button(action: {
-                    //画面遷移処理するよ
+                    self.isActiveSubView.toggle()
                 }, label: {
                     Image("startButton")
                 })
             }
             )}
+    }
     }
     
 }
@@ -36,6 +43,14 @@ struct StartButton: View {
                 Image("startButton")
             }
         }
+    }
+}
+struct SubView: View {
+    var body: some View {
+        VStack {
+            Text("SubView")
+        }
+        .navigationBarTitle("SubView")
     }
 }
 
